@@ -1,0 +1,14 @@
+{
+  "name": "playwright-demoqa-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation challenge for demoqa.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.0.0"
+  }
+}
